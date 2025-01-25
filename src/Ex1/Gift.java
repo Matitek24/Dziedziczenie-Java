@@ -1,3 +1,5 @@
+package Ex1;
+
 public class Gift {
     static int id;
     String content;

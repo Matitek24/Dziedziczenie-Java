@@ -1,6 +1,8 @@
+package Ex1;
+
 public class Main {
     public static void main(String[] args) {
-        // Tworzymy obiekty Gift
+        // Tworzymy obiekty Ex1.Gift
         Gift gift1 = new Gift("Zabawka", 1);
         Gift gift2 = new Gift("Klocki", 2);
         Gift gift3 = new Gift("Lalka", 3);
@@ -14,7 +16,7 @@ public class Main {
         // Tworzymy tablicę historii miast
         String[] cityHistory = {"Warszawa", "Kraków"};
 
-        // Tworzymy obiekt Santa
+        // Tworzymy obiekt Ex1.Santa
         Santa santa = new Santa("Mikołaj", "Święty", 800, false, "Laponia", cityHistory, naughtyKids, gifts);
 
         // Testowanie metody startWork()

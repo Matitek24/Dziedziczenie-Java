@@ -1,3 +1,5 @@
+package Ex1;
+
 public class Santa extends Osoba{
     private boolean isWorking;
     private String cityLocation;

@@ -1,3 +1,5 @@
+package Ex1;
+
 public class Osoba {
     String imie;
     String nazwisko;
